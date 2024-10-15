@@ -1,0 +1,84 @@
+/* Estilos gerais */
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(39, 34, 34);
+  color: white;
+  padding: 20px; 
+}
+
+/* Container geral */
+.container {
+  margin-bottom: 20px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+/* Inputs */
+input {
+  width: 100%; 
+  max-width: 300px; 
+  margin-bottom: 10px; 
+}
+
+/* Botões */
+button {
+  margin-left: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #420202;
+  color: white;
+  border-radius: 5px;
+  width: 100%; 
+  max-width: 150px; 
+}
+
+/* Botão de finalizar compra */
+.finalize-button {
+  margin: 20px auto;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  max-width: 200px; 
+}
+
+/* Estilos do modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  width: 90%; 
+  max-width: 400px; 
+}
+
+/* Media Queries para telas pequenas */
+@media (max-width: 600px) {
+  .App {
+    font-size: 14px; 
+  }
+
+  button {
+    padding: 15px; 
+  }
+}
